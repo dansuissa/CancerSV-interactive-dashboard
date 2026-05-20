@@ -1,0 +1,5 @@
+scenario,scenario_label,group,x_mode,n_cancers,n_rows
+pan_tcga_incremental_then_pan_seer,Pan-cancer TCGA → + pan-SEER continuation,TCGA + SEER,numeric,33,357
+seer_pan_train_tcga_test,Pan-cancer SEER only,SEER only,categorical,33,363
+seer_same_family_train_tcga_test,Family-restricted SEER only,SEER only,categorical,33,353
+leave_one_type_out_tcga_plus_pan_seer,Pan-cancer TCGA + pan-SEER,TCGA + SEER,categorical,33,390
