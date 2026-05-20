@@ -1,0 +1,6 @@
+scenario,scenario_label,group,x_mode,x_axis_title,compress_positive_y,n_cancers,n_rows
+tcga_only_pan_incremental_vs_single_baseline,Pan-cancer TCGA only,TCGA only,categorical,TCGA subset size,0,33,264
+seer_pan_train_tcga_test,Pan-cancer SEER only,SEER only,categorical,SEER training samples,1,33,363
+within_type_tcga_plus_single_cancer_seer,Single-cancer TCGA + exact-matched SEER,TCGA + SEER,categorical,Added SEER samples,0,33,330
+seer_same_family_train_tcga_test,Family-restricted SEER only,SEER only,categorical,Matched-family SEER fraction,1,33,363
+leave_one_type_out_tcga_plus_pan_seer,Pan-cancer TCGA + pan-SEER,TCGA + SEER,categorical,Added SEER samples,1,33,396
